@@ -1,0 +1,32 @@
+.hero {
+  margin-bottom: 100px;
+}
+
+.hero .school-name {
+  font-size: 3.5rem;
+}
+
+.hero .text-shadow-md {
+  text-shadow: 0 0 10px rgb(46, 46, 46);
+}
+
+.about {
+  margin-top: 100px;
+}
+
+.news {
+  margin-top: 100px;
+}
+
+.news .swiper-card {
+  cursor: default;
+}
+
+.news .swiper-card img {
+  transition: 300ms;
+}
+
+.news .swiper-card .scale {
+  transition: 300ms;
+  transform: scale(1.5);
+}

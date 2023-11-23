@@ -6,17 +6,27 @@
 :root {
   --bg-primer: rgb(20, 21, 21);
   --bg-second: rgb(46, 46, 46);
+  --bg-green-600: rgb(67, 201, 101);
+  --bg-blue-600: rgb(74, 169, 253);
   --text-primer: rgb(255, 255, 255);
 }
 
 .bg-primer {
-  background: var(--bg-primer);
+  background: var(--bg-primer) !important;
 }
 
 .bg-second {
-  background: var(--bg-primer);
+  background: var(--bg-primer) !important;
+}
+
+.bg-green-600 {
+  background: var(--bg-green-600) !important;
+}
+
+.bg-blue-600 {
+  background: var(--bg-blue-600) !important;
 }
 
 .text-primer {
-  color: var(--text-primer);
+  color: var(--text-primer) !important;
 }

@@ -1,0 +1,11 @@
+.navbar .navbar-nav a:hover {
+  color: rgb(0, 170, 255);
+}
+
+.navbar .navbar-nav a.active {
+  color: rgb(0, 170, 255);
+}
+
+.navbar .text-blue-400 {
+  color: rgb(0, 170, 255);
+}
