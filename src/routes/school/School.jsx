@@ -74,11 +74,11 @@ export const School = () => {
           LATEST NEWS
         </h1>
         <Swiper
-          slidesPerView={4}
+          slidesPerView={1}
           breakpoints={{
-            768: { slidesPerView: 3 },
-            576: { slidesPerView: 2 },
-            420: { slidesPerView: 1 },
+            768: { slidesPerView: 4 },
+            576: { slidesPerView: 3 },
+            420: { slidesPerView: 2 },
           }}
           autoplay={{ delay: 5000 }}
           spaceBetween={15}
