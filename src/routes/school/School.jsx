@@ -133,42 +133,48 @@ export const School = () => {
           })}
         </div>
       </section>
-      <section className="about container d-flex justify-content-around bg-white mb-4">
-        <div className="about-desc col-12 col-md-6">
-          <h1 className="fw-semibold">ABOUT US</h1>
-          <div className="d-flex flex-column gap-2">
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Necessitatibus corrupti quis veritatis, quas aliquid incidunt
-              animi eos aperiam et sequi, fuga sed, accusamus aut excepturi
-              saepe molestiae ipsum unde quae vel eaque repudiandae provident
-              qui. Est saepe at culpa, labore nihil sunt
-            </p>
-            <ul>
-              <li>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Mollitia, et.
-                </p>
-              </li>
-              <li>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
-              </li>
-              <li>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Mollitia, ethial albdoa.
-                </p>
-              </li>
-            </ul>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Necessitatibus corrupti quis veritatis
-            </p>
+      <section className="about container bg-white mb-3">
+        <div className="row">
+          <div className="about-desc col-12 col-md-6">
+            <h1 className="fw-semibold">ABOUT US</h1>
+            <div className="d-flex flex-column gap-2">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Necessitatibus corrupti quis veritatis, quas aliquid incidunt
+                animi eos aperiam et sequi, fuga sed, accusamus aut excepturi
+                saepe molestiae ipsum unde quae vel eaque repudiandae provident
+                qui. Est saepe at culpa, labore nihil sunt
+              </p>
+              <ul>
+                <li>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Mollitia, et.
+                  </p>
+                </li>
+                <li>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                </li>
+                <li>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Mollitia, ethial albdoa.
+                  </p>
+                </li>
+              </ul>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Necessitatibus corrupti quis veritatis
+              </p>
+            </div>
           </div>
-        </div>
-        <div className="yt-trailer col-12 col-md-6 text-end">
-          <YouTube videoId="eZqdLaJJDWc" opts={opts} onReady={onPlayerReady} />
+          <div className="yt-trailer col-12 col-md-6 text-end">
+            <YouTube
+              videoId="eZqdLaJJDWc"
+              opts={opts}
+              onReady={onPlayerReady}
+            />
+          </div>
         </div>
       </section>
       <Footer />
